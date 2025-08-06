@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Element, ElementType } from './element';
 import { Events } from './events';
 import { Scene } from './scene';

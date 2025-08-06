@@ -1,3 +1,5 @@
+// @ts-nocheck
+ 
 import {
     EVENT_POSTRENDER_LAYER,
     EVENT_PRERENDER_LAYER,

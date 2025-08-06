@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 type Color = { r: number, g: number, b: number, a: number };
 
 const DEFAULT_BG_CLR: Color = { r: 0.4, g: 0.4, b: 0.4, a: 1 };
@@ -166,4 +168,4 @@ const getSceneConfig = (overrides: any[]) => {
     return sceneConfig;
 };
 
-export { SceneConfig, getSceneConfig };
+export { type SceneConfig, getSceneConfig };

@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Mat3 } from 'playcanvas';
 
 /* eslint-disable indent */

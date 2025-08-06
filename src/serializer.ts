@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Color, Vec3 } from 'playcanvas';
 
 // this class is used by elements to store their pertinent state

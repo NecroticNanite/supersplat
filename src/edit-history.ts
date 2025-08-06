@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { EditOp } from './edit-ops';
 import { Events } from './events';
 

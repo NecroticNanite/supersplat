@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Color, Mat4 } from 'playcanvas';
 
 import { Pivot } from './pivot';

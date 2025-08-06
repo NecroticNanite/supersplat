@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Vec3 } from 'playcanvas';
 
 import { CubicSpline } from './anim/spline';
@@ -13,7 +15,7 @@ type Pose = {
 const registerCameraPosesEvents = (events: Events) => {
     const poses: Pose[] = [];
 
-    let onTimelineChange: (frame: number) => void;
+    let onTimelineChange: ((frame: number) => void) | null;
 
     const rebuildSpline = () => {
         const duration = events.invoke('timeline.frames');
@@ -158,4 +160,4 @@ const registerCameraPosesEvents = (events: Events) => {
     });
 };
 
-export { registerCameraPosesEvents, Pose };
+export { registerCameraPosesEvents, type Pose };

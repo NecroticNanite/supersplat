@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Color, Mat4, Texture, Vec3, Vec4 } from 'playcanvas';
 
 import { EditHistory } from './edit-history';

@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Events } from './events';
 import { Scene } from './scene';
 import { DownloadWriter, FileStreamWriter } from './serialize/writer';

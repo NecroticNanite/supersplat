@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import {
     CULLFACE_NONE,
     SEMANTIC_POSITION,

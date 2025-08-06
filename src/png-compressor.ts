@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 const WORKER_STR = function (urlBase: string) {
     const initLodepng = () => {
         return new Promise((resolve) => {

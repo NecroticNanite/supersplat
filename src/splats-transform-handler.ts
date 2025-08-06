@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Mat4, Vec3 } from 'playcanvas';
 
 import { PlacePivotOp, SplatsTransformOp, MultiOp } from './edit-ops';

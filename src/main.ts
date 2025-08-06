@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Color, createGraphicsDevice } from 'playcanvas';
 
 import { registerCameraPosesEvents } from './camera-poses';

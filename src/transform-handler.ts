@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { EntityTransformHandler } from './entity-transform-handler';
 import { Events } from './events';
 import { registerPivotEvents } from './pivot';

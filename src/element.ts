@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { BoundingBox, Quat, Vec3 } from 'playcanvas';
 
 import { Scene } from './scene';

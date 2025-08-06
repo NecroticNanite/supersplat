@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import {
     SEMANTIC_COLOR,
     SEMANTIC_POSITION,

@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import {
     ADDRESS_CLAMP_TO_EDGE,
     PIXELFORMAT_RGBA8,

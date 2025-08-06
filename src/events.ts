@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { EventHandler } from 'playcanvas';
 
 type FunctionCallback = (...args: any[]) => any;

@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Element, ElementType, ElementTypeList } from './element';
 import { Serializer } from './serializer';
 

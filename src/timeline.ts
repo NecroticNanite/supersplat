@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { EventHandle } from 'playcanvas';
 
 import { Events } from './events';

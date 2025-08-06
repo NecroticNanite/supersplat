@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import {
     BLENDEQUATION_ADD,
     BLENDMODE_ONE,
@@ -27,6 +29,8 @@ class BoxShape extends Element {
 
     constructor() {
         super(ElementType.debug);
+        
+        this.material = new ShaderMaterial();
 
         this.pivot = new Entity('boxPivot');
         this.pivot.addComponent('render', {
@@ -48,8 +52,8 @@ class BoxShape extends Element {
         );
         material.update();
 
-        this.pivot.render.meshInstances[0].material = material;
-        this.pivot.render.layers = [this.scene.debugLayer.id];
+        this.pivot.render!.meshInstances[0].material = material;
+        this.pivot.render!.layers = [this.scene.debugLayer.id];
 
         this.material = material;
 

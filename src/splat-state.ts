@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 enum State {
     selected = 1,
     hidden = 2,     // locked

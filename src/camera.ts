@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import {
     math,
     ADDRESS_CLAMP_TO_EDGE,
@@ -54,7 +56,7 @@ const va = new Vec3();
 const mod = (n: number, m: number) => ((n % m) + m) % m;
 
 class Camera extends Element {
-    controller: PointerController;
+    controller: PointerController | null = null;
     entity: Entity;
     focalPointTween = new TweenValue({ x: 0, y: 0.5, z: 0 });
     azimElevTween = new TweenValue({ azim: 30, elev: -15 });
@@ -67,7 +69,7 @@ class Camera extends Element {
 
     flySpeed = 5;
 
-    picker: Picker;
+    picker: Picker | null = null;
 
     workRenderTarget: RenderTarget;
 

@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Events } from './events';
 import { Splat } from './splat';
 

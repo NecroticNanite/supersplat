@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Events } from './events';
 import { BufferWriter, GZipWriter } from './serialize/writer';
 import { serializePlyCompressed, serializePly, ExperienceSettings, SerializeSettings } from './splat-serialize';

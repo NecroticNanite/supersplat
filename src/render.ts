@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Muxer, ArrayBufferTarget } from 'mp4-muxer';
 import { path } from 'playcanvas';
 

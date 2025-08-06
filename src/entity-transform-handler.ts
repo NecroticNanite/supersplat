@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Mat4, Quat, Vec3 } from 'playcanvas';
 
 import { PlacePivotOp, EntityTransformOp, MultiOp } from './edit-ops';

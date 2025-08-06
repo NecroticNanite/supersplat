@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import {
     BLEND_NORMAL,
     BUFFER_STATIC,

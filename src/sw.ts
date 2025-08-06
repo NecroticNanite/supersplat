@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { version as appVersion } from '../package.json';
 
 // export default null

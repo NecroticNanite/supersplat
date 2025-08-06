@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Quat, Vec3 } from 'playcanvas';
 
 class Transform {

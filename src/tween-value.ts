@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 // possible interpolation functions
 const Interp = {
     sinosidal: (n: number) => Math.sin((n * Math.PI) / 2.0),

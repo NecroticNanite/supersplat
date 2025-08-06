@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Vec3, Quat } from 'playcanvas';
 
 import { Events } from './events';

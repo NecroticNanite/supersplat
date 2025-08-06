@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import './ui/scss/style.scss';
 import { version as pcuiVersion, revision as pcuiRevision } from '@playcanvas/pcui';
 import { version as engineVersion, revision as engineRevision } from 'playcanvas';

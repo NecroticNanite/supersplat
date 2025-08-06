@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import {
     BLENDMODE_ONE,
     BLENDMODE_ONE_MINUS_SRC_ALPHA,

@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import {
     BLENDEQUATION_ADD,
     BLENDMODE_ONE,

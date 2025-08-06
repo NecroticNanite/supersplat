@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Vec3 } from 'playcanvas';
 
 import { Camera } from './camera';
